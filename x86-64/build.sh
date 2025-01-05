@@ -21,12 +21,12 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
-PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
 PACKAGES="$PACKAGES luci-i18n-ipsec-vpnserver-manyusers-zh-cn"
 PACKAGES="$PACKAGES luci-app-vlmcsd"
-PACKAGES="$PACKAGES luci-app-openvpn-server"
 PACKAGES="$PACKAGES luci-app-ddns"
+PACKAGES="$PACKAGES luci-i18n-openvpn-server-zh-cn"
+PACKAGES="$PACKAGES openssh-sftp-server"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
